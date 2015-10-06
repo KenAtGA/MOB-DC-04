@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I53-37-WLE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="MGA-wN-UDY">
+            <objects>
+                <navigationController id="I53-37-WLE" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bCv-Bv-WYx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vBy-BZ-moX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hog-sj-Bkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-811" y="179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Partner_Project_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skyline.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6yy-eB-k6x">
+                                <rect key="frame" x="163" y="107" width="275" height="403"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09O-p2-iTc">
+                                <rect key="frame" x="283" y="536" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BQJ-1f-k0j">
+                                <rect key="frame" x="183" y="107" width="247" height="430"/>
+                                <string key="text">At General Assembly, Kendrick produces an average of 30-40 classes and workshops a month at GA's DC campus and is in charge of arranging close to 100 independent instructors. Class topics range from programming, design, digital marketing, data science and mobile. Recently, GA has began to focus on personal development and branding workshops with industry leaders in those areas. Kendrick is also an alumni of the Product Management Course and is currently enrolled in mobile development. Never stop learning.
+</string>
+                                <color key="textColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Av-Jo-7qR">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="g0V-hy-OnR"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="VYi-dv-hgB" kind="show" id="TrI-mU-XkD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fhp-Sr-Lvv">
+            <objects>
+                <viewController id="VYi-dv-hgB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NWm-x8-tvL"/>
+                        <viewControllerLayoutGuide type="bottom" id="HeN-yx-FAY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Olg-v6-SOc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.27058824896812439" green="0.47843140363693237" blue="0.066666670143604279" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="a3l-QT-2QL"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zvn-iW-2Ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="179"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="skyline.jpg" width="716" height="477"/>
+    </resources>
+</document>
