@@ -14,6 +14,9 @@
 		7A2084661BC3135A005AED8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2084641BC3135A005AED8E /* LaunchScreen.storyboard */; };
 		7A2084711BC3135B005AED8E /* Login_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2084701BC3135B005AED8E /* Login_ProjectTests.swift */; };
 		7A20847C1BC3135B005AED8E /* Login_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20847B1BC3135B005AED8E /* Login_ProjectUITests.swift */; };
+		7A449C0D1BC489A700C69BCE /* kendrick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A449C0C1BC489A700C69BCE /* kendrick.jpg */; settings = {ASSET_TAGS = (); }; };
+		7A449C101BC489ED00C69BCE /* Scenic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A449C0E1BC489ED00C69BCE /* Scenic.jpg */; settings = {ASSET_TAGS = (); }; };
+		7A449C111BC489ED00C69BCE /* woods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A449C0F1BC489ED00C69BCE /* woods.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7A2084771BC3135B005AED8E /* Login ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A20847B1BC3135B005AED8E /* Login_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_ProjectUITests.swift; sourceTree = "<group>"; };
 		7A20847D1BC3135B005AED8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A449C0C1BC489A700C69BCE /* kendrick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kendrick.jpg; path = ../../../../../Downloads/kendrick.jpg; sourceTree = "<group>"; };
+		7A449C0E1BC489ED00C69BCE /* Scenic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Scenic.jpg; path = ../../../../../Desktop/Scenic.jpg; sourceTree = "<group>"; };
+		7A449C0F1BC489ED00C69BCE /* woods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = woods.jpg; path = ../../../../../Desktop/woods.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				7A20845B1BC3135A005AED8E /* AppDelegate.swift */,
 				7A20845D1BC3135A005AED8E /* ViewController.swift */,
 				7A20845F1BC3135A005AED8E /* Main.storyboard */,
+				7A449C0E1BC489ED00C69BCE /* Scenic.jpg */,
+				7A449C0F1BC489ED00C69BCE /* woods.jpg */,
+				7A449C0C1BC489A700C69BCE /* kendrick.jpg */,
 				7A2084621BC3135A005AED8E /* Assets.xcassets */,
 				7A2084641BC3135A005AED8E /* LaunchScreen.storyboard */,
 				7A2084671BC3135A005AED8E /* Info.plist */,
@@ -229,7 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2084661BC3135A005AED8E /* LaunchScreen.storyboard in Resources */,
+				7A449C101BC489ED00C69BCE /* Scenic.jpg in Resources */,
 				7A2084631BC3135A005AED8E /* Assets.xcassets in Resources */,
+				7A449C0D1BC489A700C69BCE /* kendrick.jpg in Resources */,
+				7A449C111BC489ED00C69BCE /* woods.jpg in Resources */,
 				7A2084611BC3135A005AED8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +495,7 @@
 				7A2084821BC3135B005AED8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A2084831BC3135B005AED8E /* Build configuration list for PBXNativeTarget "Login ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				7A2084851BC3135B005AED8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A2084861BC3135B005AED8E /* Build configuration list for PBXNativeTarget "Login ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +513,7 @@
 				7A2084881BC3135B005AED8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
